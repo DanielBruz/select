@@ -41,16 +41,16 @@
 			];
 
 
-			// echo "<select name='names'>";
-				// foreach ($directors as $director) {
-					// echo "<option value='" . $director['id'] . "'>" . $director['first_name'] . " " . $director['last_name'] . "</option>";
-				// }
-			// echo "</select>";
-
 			echo "<select name='names'>";
 			foreach ($directors as $director)
 			{
-				echo "<option value='" . $director['id'] . "'>" . $director['first_name'] . " " . $director['last_name'] . "</option>";
+				// echo "<option value='" . $director['id'] . "'>" . $director['first_name'] . " " . $director['last_name'] . "</option>";
+
+				$fullName = "<strong>" . $director['first_name'] . " " . $director['last_name'] . "</strong>";
+				echo "<option value='" . $director['id'] . "'>" . $fullName . "</option>";
+
+
+
 			}
 			echo "</select>";
 
