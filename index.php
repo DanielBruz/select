@@ -50,7 +50,6 @@
 				echo "<option value='" . $director['id'] . "'>" . $fullName . "</option>";
 
 
-
 			}
 			echo "</select>";
 

@@ -104,6 +104,10 @@ article:nth-child(5) { background: #0f1a5f; margin-right: 0; }
 	font-size: 15px;
 }
 
+.select {
+	color: #ec0e0e;
+	font-weight: normal;
+}
 
 
 /* media queries */
